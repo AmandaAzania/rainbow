@@ -19,3 +19,22 @@ div {
     border-radius: 50%;
     box-shadow: 0 0 0 5px #4200AB, 0 0 0 10px #000095, 0 0 0 15px #00ABFF, 0 0 0 20px #00C800, 0 0 0 25px #FFF800, 0 0 0 30px #FF7642, 0 0 0 35px #E40000;
   }
+
+ 
+
+  .rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  }
+  .rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+  }
+  .rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+  }
+  .rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
